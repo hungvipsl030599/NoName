@@ -44,6 +44,10 @@
     <string name="title_CapNhat">Cập nhật</string>
     <string name="title_NgayThangNamSinh">Ngày/Tháng/Năm Sinh</string>
     <string name="title_DangXuat">Đăng xuất</string>
+    <string name="title_MatKhauHienTai">Mật khẩu hiện tại</string>
+    <string name="title_MatKhauMoi">Mật khẩu mới</string>
+    <string name="title_NhapLaiMatKhau">Nhập lại mật khẩu</string>
+    <string name="title_DoiMatKhau">Đổi mật khẩu</string>
 
 
 </resources>
