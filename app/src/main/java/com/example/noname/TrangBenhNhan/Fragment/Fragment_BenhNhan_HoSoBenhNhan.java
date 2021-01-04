@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,7 +20,7 @@ import java.util.Calendar;
 
 public class Fragment_BenhNhan_HoSoBenhNhan extends Fragment {
 
-    EditText edtNamSinh;
+    TextView txtNamSinh;
 
     Calendar calendar=Calendar.getInstance();
     SimpleDateFormat sdfNgay=new SimpleDateFormat("dd/MM/yyyy");
@@ -28,14 +29,14 @@ public class Fragment_BenhNhan_HoSoBenhNhan extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_benh_nhan_ho_so_benh_nhan, container,false);
-        edtNamSinh=view.findViewById(R.id.edtNamSinh_Fragment_BenhNhan_HoSoBenhNhan);
+        txtNamSinh=view.findViewById(R.id.txtNamSinh_Fragment_BenhNhan_HoSoBenhNhan);
 
         events();
         return view;
     }
 
     private void events() {
-        edtNamSinh.setOnClickListener(new View.OnClickListener() {
+        txtNamSinh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 xuLyHienThiNgay();
@@ -50,7 +51,7 @@ public class Fragment_BenhNhan_HoSoBenhNhan extends Fragment {
                 calendar.set(Calendar.MONTH,month);
                 calendar.set(Calendar.DAY_OF_MONTH,dayOfMonth);
 
-                edtNamSinh.setText(sdfNgay.format(calendar.getTime()));
+                txtNamSinh.setText(sdfNgay.format(calendar.getTime()));
             }
         };
         DatePickerDialog datePickerDialog=new DatePickerDialog(getActivity(), listener,

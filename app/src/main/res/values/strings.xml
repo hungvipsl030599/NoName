@@ -48,6 +48,11 @@
     <string name="title_MatKhauMoi">Mật khẩu mới</string>
     <string name="title_NhapLaiMatKhau">Nhập lại mật khẩu</string>
     <string name="title_DoiMatKhau">Đổi mật khẩu</string>
+    <string name="title_HoTenBenhNhan">Họ tên bệnh nhân</string>
+    <string name="title_SoLienLacCuaBenhNhan">Số liên lạc của bệnh nhân</string>
+    <string name="title_GioiTinh">Giới tính</string>
+    <string name="title_ThoiGianLapHoSo">Thời gian lập hồ sơ</string>
+    <string name="title_ThoiGianCapNhat">Thời gian cập nhật</string>
 
 
 </resources>
