@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".TrangBenhNhan.BenhNhan_DoiMatKhau"></activity>
+        <activity android:name=".TrangBenhNhan.Fragment.BenhNhan_LichSuKhamBenh"></activity>
+        <activity android:name=".TrangBenhNhan.BenhNhan_DoiMatKhau" />
         <activity android:name=".TrangBacSi.Fragment.Fragment_BacSi_TrangChu" />
         <activity android:name=".TrangBacSi.Nav_TrangBacSi" />
         <activity android:name=".TrangBacSi.BacSi_DangNhapBacSi" />

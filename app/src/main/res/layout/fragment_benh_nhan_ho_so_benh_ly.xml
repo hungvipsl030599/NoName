@@ -96,12 +96,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/title_ThoiGianLapHoSo"
+                    android:text="@string/title_ThoiGianDangKy"
                     android:textColor="@color/colorBlack"
                     android:textSize="20dp" />
 
                 <TextView
-                    android:id="@+id/txtThoiGianLapHoSo_Fragment_BenhNhan_HoSoBenhLy"
+                    android:id="@+id/txtThoiGianDangKy_Fragment_BenhNhan_HoSoBenhLy"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/edit3"
@@ -144,18 +144,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/title_ThoiGianCapNhat"
+                    android:text="@string/title_HoatDong"
                     android:textColor="@color/colorBlack"
                     android:textSize="20dp" />
 
-                <TextView
-                    android:id="@+id/txtSoDienThoai_Fragment_BenhNhan_HoSoBenhNhan"
+                <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@drawable/edit3"
-                    android:gravity="center_vertical"
-                    android:padding="5dp"
-                    android:textSize="20dp" />
+                    android:layout_height="200dp"
+                    android:background="@drawable/edit3">
+
+                    <TextView
+                        android:id="@+id/txtSoDienThoai_Fragment_BenhNhan_HoSoBenhNhan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:textSize="20dp" />
+                </ScrollView>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

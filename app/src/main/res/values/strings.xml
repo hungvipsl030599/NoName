@@ -51,8 +51,12 @@
     <string name="title_HoTenBenhNhan">Họ tên bệnh nhân</string>
     <string name="title_SoLienLacCuaBenhNhan">Số liên lạc của bệnh nhân</string>
     <string name="title_GioiTinh">Giới tính</string>
-    <string name="title_ThoiGianLapHoSo">Thời gian lập hồ sơ</string>
+    <string name="title_ThoiGianDangKy">Thời gian đăng ký</string>
     <string name="title_ThoiGianCapNhat">Thời gian cập nhật</string>
+    <string name="title_HoatDong">Hoạt động</string>
+    <string name="title_NgayDangKy">Ngày đăng ký:</string>
+    <string name="title_Khoa">Khoa:</string>
+    <string name="title_BacSiKham">Bác sĩ khám:</string>
 
 
 </resources>

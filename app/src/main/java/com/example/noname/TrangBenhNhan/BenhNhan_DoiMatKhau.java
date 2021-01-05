@@ -19,7 +19,7 @@ public class BenhNhan_DoiMatKhau extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_benh_nhan__doi_mat_khau);
+        setContentView(R.layout.activity_benh_nhan_doi_mat_khau);
         controls();
         events();
 
