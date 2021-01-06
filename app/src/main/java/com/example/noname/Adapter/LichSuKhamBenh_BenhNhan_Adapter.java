@@ -41,7 +41,6 @@ public class LichSuKhamBenh_BenhNhan_Adapter extends ArrayAdapter<LichSuKhamBenh
         TextView txtBacSiKham=row.findViewById(R.id.txtBacSiKham_CustomLv_BenhNhan_LichSuKhamBenh);
         TextView txtKhoa=row.findViewById(R.id.txtKhoa_CustomLv_BenhNhan_LichSuKhamBenh);
         TextView txtNgay=row.findViewById(R.id.txtNgayDangKy_CustomLv_BenhNhan_LichSuKhamBenh);
-        LinearLayout click=row.findViewById(R.id.click_CustomLv_BenhNhan_LichSuKhamBenh);
 
         LichSuKhamBenh_BenhNhan lichSu=this.objects.get(position);
         txtTenBenhNhan.setText(lichSu.getTenBenhNhan());
