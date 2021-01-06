@@ -79,8 +79,9 @@
                 android:id="@+id/btnDatLich_BenhNhan_DatLichKham"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="100dp"
+                android:layout_margin="40dp"
                 android:background="@drawable/edit2"
+                android:textColor="#fff"
                 android:text="@string/title_DatLichKham" />
         </LinearLayout>
     </ScrollView>
