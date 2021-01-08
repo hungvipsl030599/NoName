@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <ListView
+        android:id="@+id/lvFragment_BacSi_LichKham"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Lịch khám"
-        android:textSize="40dp"
-        android:gravity="center"/>
+        android:listSelector="@color/colorListView"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import androidx.annotation.NonNull;
@@ -44,7 +43,7 @@ public class Fragment_BenhNhan_LichSuKhamBenh extends Fragment{
         lvLichSuKhamBenh.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                startActivity(new Intent(getActivity(),BenhNhan_LichSuKhamBenh.class));
+                startActivity(new Intent(getActivity(), BenhNhan_ChiTiet_LichSuKhamBenh.class));
             }
         });
 

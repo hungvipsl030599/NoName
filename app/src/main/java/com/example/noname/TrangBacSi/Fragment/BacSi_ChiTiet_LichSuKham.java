@@ -1,4 +1,4 @@
-package com.example.noname.TrangBenhNhan.Fragment;
+package com.example.noname.TrangBacSi.Fragment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.noname.R;
 
-public class BenhNhan_LichSuKhamBenh extends AppCompatActivity {
+public class BacSi_ChiTiet_LichSuKham extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_benh_nhan_lich_su_kham_benh);
+        setContentView(R.layout.activity_bac_si_chi_tiet_lich_su_kham);
     }
 }

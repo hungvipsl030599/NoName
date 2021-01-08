@@ -54,9 +54,11 @@
     <string name="title_ThoiGianDangKy">Thời gian đăng ký</string>
     <string name="title_ThoiGianCapNhat">Thời gian cập nhật</string>
     <string name="title_HoatDong">Hoạt động</string>
-    <string name="title_NgayDangKy">Ngày đăng ký:</string>
+    <string name="title_NgayDangKyKham">Ngày đăng ký khám:</string>
     <string name="title_Khoa">Khoa:</string>
     <string name="title_BacSiKham">Bác sĩ khám:</string>
+    <string name="title_ThoiGianKham">Thời gian khám:</string>
+    <string name="title_TrangThai">Trạng thái</string>
 
 
 </resources>

@@ -4,7 +4,6 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/click_CustomLv_BenhNhan_LichSuKhamBenh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -12,7 +11,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/ic_hospital" />
+            android:background="@drawable/ic_lichkham" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,14 +20,13 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txtTenBenhNhan_CustomLv_BenhNhan_LichSuKhamBenh"
+                android:id="@+id/txtTenBenhNhan_CustomLv_BacSi_LichKham"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tên bệnh nhân"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -37,35 +35,16 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/title_BacSiKham"
+                    android:text="@string/title_SoDienThoai"
                     android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/txtBacSiKham_CustomLv_BenhNhan_LichSuKhamBenh"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="3dp"
-                    android:text="Tên bác sĩ" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/title_Khoa"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/txtKhoa_CustomLv_BenhNhan_LichSuKhamBenh"
+                    android:id="@+id/txtSoDienThoai_CustomLv_BacSi_LichKham"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3dp"
                     android:textStyle=""
-                    android:text="Tên khoa" />
+                    android:text="Số điện thoại" />
             </LinearLayout>
 
             <LinearLayout
@@ -78,16 +57,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
-                    android:text="@string/title_NgayDangKyKham"
+                    android:text="@string/title_ThoiGianKham"
                     android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/txtNgayDangKy_CustomLv_BenhNhan_LichSuKhamBenh"
-                    android:layout_width="match_parent"
+                    android:id="@+id/txtNgayKham_CustomLv_BacSi_LichKham"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:layout_marginLeft="3dp"
                     android:text="ngày/tháng/năm" />
+                <TextView
+                    android:id="@+id/txtThoiGianKham_CustomLv_BacSi_LichKham"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:text="giờ:phút" />
             </LinearLayout>
 
 

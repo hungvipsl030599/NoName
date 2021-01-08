@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".TrangBenhNhan.Fragment.BenhNhan_LichSuKhamBenh"></activity>
+        <activity android:name=".TrangBacSi.Fragment.BacSi_ChiTiet_LichSuKham"></activity>
+        <activity android:name=".TrangBacSi.Fragment.BacSi_ChiTiet_LichKham" />
+        <activity android:name=".TrangBenhNhan.Fragment.BenhNhan_ChiTiet_LichSuKhamBenh" />
         <activity android:name=".TrangBenhNhan.BenhNhan_DoiMatKhau" />
         <activity android:name=".TrangBacSi.Fragment.Fragment_BacSi_TrangChu" />
         <activity android:name=".TrangBacSi.Nav_TrangBacSi" />

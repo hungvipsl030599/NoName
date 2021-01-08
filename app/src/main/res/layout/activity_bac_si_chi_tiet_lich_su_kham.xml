@@ -3,14 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".TrangBenhNhan.Fragment.BenhNhan_LichSuKhamBenh">
+    tools:context=".TrangBacSi.Fragment.BacSi_ChiTiet_LichSuKham">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Lịch sử"
-        android:textSize="30dp"
+        android:text="Lịch sử khám"
+        android:textSize="40dp"
         android:gravity="center"/>
 
 </LinearLayout>
