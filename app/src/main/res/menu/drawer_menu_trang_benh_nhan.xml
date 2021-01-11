@@ -22,7 +22,7 @@
             android:title="@string/title_HoSoBenhLy" />
         <item
             android:id="@+id/nav_BenhNhan_LichSuKhamBenh"
-            android:icon="@drawable/ic_lichsukham"
+            android:icon="@drawable/ic_lichsu"
             android:title="@string/title_LichSuKhamBenh" />
         <item
             android:id="@+id/nav_BenhNhan_DangXuat"

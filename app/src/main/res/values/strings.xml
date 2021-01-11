@@ -59,6 +59,13 @@
     <string name="title_BacSiKham">Bác sĩ khám:</string>
     <string name="title_ThoiGianKham">Thời gian khám:</string>
     <string name="title_TrangThai">Trạng thái</string>
+    <string name="title_KhoaLamViec">Khoa làm việc</string>
+    <string name="title_TuoiBenhNhan">Tuổi bệnh nhân</string>
+    <string name="title_Nam">Nam</string>
+    <string name="title_Nu">Nữ</string>
+    <string name="title_EmailBenhNhan">Email bệnh nhân</string>
+    <string name="title_KhongBatBuoc">(không bắt buộc)</string>
+    <string name="title_ThemHoSo">Thêm hồ sơ</string>
 
 
 </resources>

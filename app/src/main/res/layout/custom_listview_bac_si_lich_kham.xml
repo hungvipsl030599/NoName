@@ -11,7 +11,7 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/ic_lichkham" />
+            android:background="@drawable/ic_lv_lichkham" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,6 +67,13 @@
                     android:layout_gravity="bottom"
                     android:layout_marginLeft="3dp"
                     android:text="ngày/tháng/năm" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:text="|" />
                 <TextView
                     android:id="@+id/txtThoiGianKham_CustomLv_BacSi_LichKham"
                     android:layout_width="wrap_content"

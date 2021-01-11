@@ -18,7 +18,7 @@
             android:title="@string/title_ThemHoSoBenhNhan" />
         <item
             android:id="@+id/nav_BacSi_QuanLyBenhNhan"
-            android:icon="@drawable/ic_quanlibenhnhan"
+            android:icon="@drawable/ic_quanlybenhnhan"
             android:title="@string/title_QuanLyBenhNhan" />
         <item
             android:id="@+id/nav_BacSi_HoSoBacSi"
@@ -26,7 +26,7 @@
             android:title="@string/title_HoSoBacSi" />
         <item
             android:id="@+id/nav_BacSi_LichSuKham"
-            android:icon="@drawable/ic_lichsukham"
+            android:icon="@drawable/ic_lichsu"
             android:title="@string/title_LichSuKham" />
         <item
             android:id="@+id/nav_BacSi_DangXuat"
